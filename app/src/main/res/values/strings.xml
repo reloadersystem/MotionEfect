@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Motion</string>
+    <string name="chrysanthemum">Chrysanthemum</string>
+    <string name="desert">Desert</string>
+    <string name="hydrangeas">Hydrangeas</string>
+    <string name="jellyfish">Jellyfish</string>
+    <string name="motion">MotionEvents</string>
+    <string name="devandroid">DevAndroid</string>
+
+    <string name="picture_transition_name" translatable="false">picture_transition</string>
+    <string name="share_transition_name" translatable="false">share_transition</string>
+
+    <string name="detail_text">
+Motion events describe movements in terms of an action code and a set of axis values. The action code specifies the state change that occurred such as a pointer going down or up. The axis values describe the position and other movement properties.
+
+For example, when the user first touches the screen, the system delivers a touch event to the appropriate View with the action code ACTION_DOWN and a set of axis values that include the X and Y coordinates of the touch and information about the pressure, size and orientation of the contact area.
+
+Some devices can report multiple movement traces at the same time. Multi-touch screens emit one movement trace for each finger. The individual fingers or other objects that generate movement traces are referred to as pointers. Motion events contain information about all of the pointers that are currently active even if some of them have not moved since the last event was delivered.
+    </string>
+
+    <string name="share_facebook">Iphone</string>
+    <string name="share_twitter">Swift</string>
+    <string name="share_google_plus">Android</string>
+    <string name="share_instagram">CodeLab</string>
+</resources>

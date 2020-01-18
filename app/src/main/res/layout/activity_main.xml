@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="3"
+    android:padding="4dp"
+    android:rowCount="3"
+    android:useDefaultMargins="true"
+    tools:context=".MainActivity">
+
+    <ar.reloadersystem.motion.PictureView
+        style="@style/PictureView"
+        android:contentDescription="@string/chrysanthemum"
+        android:src="@drawable/chrysanthemum" />
+
+    <ar.reloadersystem.motion.PictureView
+        style="@style/PictureView"
+        android:contentDescription="@string/desert"
+        android:src="@drawable/desert" />
+
+    <ar.reloadersystem.motion.PictureView
+        style="@style/PictureView"
+        android:contentDescription="@string/motion"
+        android:src="@drawable/motionevents" />
+
+    <ar.reloadersystem.motion.PictureView
+        style="@style/PictureView"
+        android:contentDescription="@string/jellyfish"
+        android:src="@drawable/jellyfish" />
+
+    <ar.reloadersystem.motion.PictureView
+        style="@style/PictureView"
+        android:contentDescription="@string/motion"
+        android:src="@drawable/motionevents" />
+
+    <ar.reloadersystem.motion.PictureView
+        style="@style/PictureView"
+        android:contentDescription="@string/devandroid"
+        android:src="@drawable/devandroid" />
+
+
+</GridLayout>
